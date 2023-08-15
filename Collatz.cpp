@@ -21,9 +21,9 @@ void conjetura_collatz(int nusuario)
 int main() 
 {	
 	int nusuario;
-	cout <<"Ingrese un número entero para ver la conjetura de Collatz: ";
+	cout <<"Ingrese un nÃºmero entero para ver la conjetura de Collatz: ";
 	cin >> nusuario;
-	cout<<"La secuencia de Collatz para el número "<<nusuario<<" es:"<<endl;
+	cout<<"La secuencia de Collatz para el nÃºmero "<<nusuario<<" es:"<<endl;
 	cout<<nusuario<< " ";
 	conjetura_collatz(nusuario);
 	
